@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+
+<routes>
+	<vType id='car' accel='5' decel='3.5' maxSpeed='20' length='5' sigma='0.5' vClass='passenger'/>
+	<vType id='bus' accel='2' decel='2' maxSpeed='8' length='15' sigma='0.8' vClass='bus'/>
+
+	<flow id='carflow' type='car' beg='0' end='0' number='5' from='edge1' to='edge2'/>
+	<flow id='busflow' type='bus' beg='0' end='0' number='5' from='edge1' to='edge2'/>
+</routes>

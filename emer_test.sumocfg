@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+
+<configuration>
+
+	<input>
+		<net-file value = 'emer_test.net.xml'/>
+		<route-files value = 'emer_test.rou.xml'/>
+	</input>
+	
+	<bluelight-device>
+		<device.bluelight.explicit value = 'emer-vehi' />
+	</bluelight-device>
+	
+
+	
+</configuration>

@@ -1,0 +1,10 @@
+<configuration>
+
+	<input>
+	
+		<net-file value='nonControlCrossing.net.xml'/>
+		<route-files value='nonControlCrossing.rou.xml'/>
+		
+	</input>
+	
+</configuration>

@@ -1,0 +1,12 @@
+<configuration>
+
+	<input>
+		<net-file value='nonControlCrossing.net.xml'/>
+		<route-files value='fuzzy_tls.rou.xml'/>
+	</input>
+	
+	<time>
+		<step-length value='1'/>
+	</time>
+	
+</configuration>

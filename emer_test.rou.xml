@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+
+<routes>
+	<vType id = 'emer-car' guiShape = 'emergency'  vClass = 'emergency' speedFactor = '1.5'/>
+	<vType id = 'priv-car' type = 'passenger' length = '5' accel = '3' decel = '2' sigma = '0.7'/>
+	<route id = 'emer-route' edges = 'in1 edge1 edge9 -edge11 -edge5 out3' />
+	<route id = 'priv-route' edges = 'in5 edge9 -edge11 -edge5 out3' />		
+
+	<vehicle id = 'priv-vehi0' type = 'priv-car' depart = '0' route = 'priv-route'/>
+	<vehicle id = 'priv-vehi1' type = 'priv-car' depart = '0' route = 'priv-route'/>
+	<vehicle id = 'priv-vehi2' type = 'priv-car' depart = '0' route = 'priv-route'/>
+	<vehicle id = 'priv-vehi3' type = 'priv-car' depart = '0' route = 'priv-route'/>
+	<vehicle id = 'priv-vehi4' type = 'priv-car' depart = '0' route = 'priv-route'/>
+	<vehicle id = 'priv-vehi5' type = 'priv-car' depart = '0' route = 'priv-route'/>
+	<vehicle id = 'priv-vehi6' type = 'priv-car' depart = '0' route = 'priv-route'/>
+	<vehicle id = 'emer-vehi' type = 'emer-car' depart = '29' route = 'emer-route'/> 
+	<!--<vehicle id = 'priv-vehi7' type = 'priv-car' depart = '30' route = 'priv-route'/>
+	<vehicle id = 'priv-vehi8' type = 'priv-car' depart = '30' route = 'priv-route'/>
+	<vehicle id = 'priv-vehi9' type = 'priv-car' depart = '30' route = 'priv-route'/>
+	<vehicle id = 'priv-vehi10' type = 'priv-car' depart = '30' route = 'priv-route'/>
+	<vehicle id = 'priv-vehi11' type = 'priv-car' depart = '30' route = 'priv-route'/>
+	<vehicle id = 'priv-vehi12' type = 'priv-car' depart = '30' route = 'priv-route'/>-->
+
+</routes>
